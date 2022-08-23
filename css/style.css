@@ -137,6 +137,7 @@ h6, .h6 {
 /* 1.2. Common styles
 ================================================== */
 body {
+  background-image: "logo/1.jpg";
   background: #fff;
   color: black;
 }
