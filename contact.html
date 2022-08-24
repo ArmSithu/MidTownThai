@@ -34,7 +34,7 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
+    
 <header class="header-top bg-dark py-4">
   <div class="container">
       <nav class="navbar navbar-expand-lg navigation menu-white">
@@ -55,7 +55,7 @@
                           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                           Menu
                           </a>
-                          <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                          <div  class="dropdown-menu" aria-labelledby="navbarDropdown2">
                             <a class="dropdown-item" href="App.html">Appetizers</a>
                             <a class="dropdown-item" href="Salad.html">SpicySalad</a>
                             <a class="dropdown-item" href="Grill.html">MidTown grill</a>
@@ -126,7 +126,7 @@
                 <div class="col-md-12">
                     <div class="form-group">
                         <label for="name">ชื่อ</label>
-                        <input type="text" class="form-control" required id="name" name="name" placeholder="Enter name" >
+                        <input type="text" class="form-control" required id="name" name="name" placeholder="Name" >
                     </div>
                     <div class="form-group">
                         <label for="name">Phone number</label>
@@ -134,7 +134,7 @@
                     </div>
                     <div class="form-group">
                         <label for="name">จำนวน ลูกค้า</label>
-                        <input type="number" class="form-control" required id="namec" name="จำนวนลูกค้า" placeholder="จำนวน" min="0" max="10">
+                        <input type="number" class="form-control" required id="namec" name="จำนวนลูกค้า" placeholder="จำนวน" min="0">
                     </div>
                     <div class="form-group">
                         <label for="name">วันที่</label>
@@ -149,14 +149,21 @@
                         <label for="email">Email</label>
                         <input type="text" class="form-control" required id="email" name="email" placeholder="email" >
                     </div>
+                   <!-- <div class="form-group">
+                        <label for="email">File</label>
+                        <input type="file"  >
+                    </div>-->
 
                     <div class="form-group">
                         <label for="message">message</label>
-                        <textarea id="message"  rows="8" required class="form-control" name="message"  placeholder="Enter Message" ></textarea>
+                        <textarea id="message"  rows="8"  class="form-control" name="message"  placeholder="Enter Message" ></textarea>
                     </div>
 
                     <button name="seadmail" class="btn btn-primary solid blank mt-3" type="submit">Booking Now</button>
+                    <button name="seadmail" class="btn btn-primary solid blank mt-3" type="reset">reset</button>
+
                 </div>
+               
             </div>
         </form>
     </div>
