@@ -896,7 +896,7 @@ overlay search
   content: "";
   left: 0px;
   right: 0px;
-  background: green;
+  background: white;
   padding: 25px 30px;
   bottom: -60px;
   text-align: center;
@@ -960,8 +960,8 @@ overlay search
 
 .label-date {
   width: 64px;
-  border: 2px solid #eee;
-  background-color: green;
+  border: 2px solid green;
+  background-color: whitesmoke;
   padding: 12px 5px;
   text-align: center;
   z-index: 9;
