@@ -226,12 +226,13 @@ blockquote {
 }
 .btn-primary:hover {
   background: green;
-  color:green;
+  color: green;
   border-color: green;
 }
 
 .btn-dark {
-  background: green;
+  background: blue;
+
 }
 
 .btn-dark:hover, .btn-white.btn-primary:hover {
